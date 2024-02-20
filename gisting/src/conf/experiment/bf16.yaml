@@ -1,0 +1,6 @@
+model:
+  precision: bf16
+
+training:
+  bf16: true
+  bf16_full_eval: true
