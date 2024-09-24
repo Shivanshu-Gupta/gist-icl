@@ -133,12 +133,12 @@ There are two different types of command lines in this repository:
    1. `gisting/src/train.py`: parameters defined in (`gisting/src/arguments.py`). Used to train gist LMs. Only use directly when doing [multi-task training](#multi-task-training). When [fine-tuning](#finetuning-gist-models-on-individual-datasets) use `gist-train.py`.
    2. `icl/src/driver.py`: parameters defined in (`icl/src/params.py:AllParams`)
 
-[gistlms]: https://60a4-128-195-10-172.ngrok-free.app/gistlms/
-[finetuned-lms]: https://60a4-128-195-10-172.ngrok-free.app/gistlms/finetunes
-[finetuned-lms-all]: https://60a4-128-195-10-172.ngrok-free.app/gistlms/finetunes.tar
-[multitask-lms]: https://60a4-128-195-10-172.ngrok-free.app/gistlms/pretrains
-[multitask-lms-all]: https://60a4-128-195-10-172.ngrok-free.app/gistlms/pretrains.tar
-[multitask-collections]: https://60a4-128-195-10-172.ngrok-free.app/multittask-data/
+[gistlms]: http://nlp.ics.uci.edu/gist-icl/gistlms/
+[finetuned-lms]: http://nlp.ics.uci.edu/gist-icl/gistlms/finetunes
+[finetuned-lms-all]: http://nlp.ics.uci.edu/gist-icl/gistlms/finetunes.tar
+[multitask-lms]: http://nlp.ics.uci.edu/gist-icl/gistlms/pretrains
+[multitask-lms-all]: http://nlp.ics.uci.edu/gist-icl/gistlms/pretrains.tar
+[multitask-collections]: http://nlp.ics.uci.edu/gist-icl/multittask-data/
 [icl-datasets]: https://1drv.ms/u/s!AqJNiE6C-nXuoawBxh-3rfUsSf4-8A?e=3o1YDK
 [icl-repo]: https://github.com/Shivanshu-Gupta/in-context-learning
 
